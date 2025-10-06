@@ -48,7 +48,13 @@ mklink /D "C:\DEV" "C:\Users\Your Username With Spaces"
 **System Variables:**
 - `C:\Users\Your Username With Spaces\` = `C:\DEV\`
 
-### **3. Restart & Enjoy Level 2 Benefits**
+### **3. (Optional) Configure VS Code & PowerShell**
+```powershell
+# Run PowerShell fix script for enhanced IDE integration
+.\vscode_powershell_fix.ps1
+```
+
+### **4. Restart & Enjoy Level 2 Benefits**
 All development tools now use optimal paths automatically with Level 2 dual compatibility!
 
 ## 📋 **What This Fixes**
@@ -90,6 +96,7 @@ git clone https://github.com/user/repo.git  # ✅ No issues
 ## 📚 **Documentation**
 
 - **[Complete Implementation Guide](IMPLEMENTATION_GUIDE.md)** - Detailed step-by-step instructions
+- **[VS Code & PowerShell Fix Script](vscode_powershell_fix.ps1)** - Enhanced IDE and shell configuration
 - **[Tool Compatibility List](IMPLEMENTATION_GUIDE.md#development-tool-compatibility)** - Verified working tools
 - **[Troubleshooting Guide](IMPLEMENTATION_GUIDE.md#safety--troubleshooting)** - Solutions for common issues
 
